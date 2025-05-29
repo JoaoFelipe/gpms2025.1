@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fizzbuzz"
+version = "1.0.0"
+authors = [
+  { name="João Felipe Pimentel", email="joaofelipenp@gmail.com" },
+]
+description = "Fizzbuzz project with github actions"
+readme = "README.md"
+
+[tool.setuptools]
+packages = [
+    "fizzbuzz",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
