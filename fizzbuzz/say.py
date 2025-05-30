@@ -2,7 +2,7 @@
 from typing import List
 
 def is_fizz(number: int) -> bool:
-    return number % 3 == 0
+    return number % 6 == 0
 
 def is_buzz(number: int) -> bool:
     return number % 5 == 0
